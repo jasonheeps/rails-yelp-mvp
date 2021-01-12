@@ -1,0 +1,40 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+.navbar {
+  background-color: #7c9473;
+  box-shadow: 0 0 4px 1px rgba(0,0,0,0.2);
+}
+
+.navbar-brand {
+  font-size: 16px;
+}
+
+.restaurants-container {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.restaurants-container a {
+  text-decoration: none;
+}
+
+.card-restaurant {
+  background-color: #cfdac8;
+  width: 320px;
+  height: 80px;
+  margin: 8px auto;
+  box-shadow: 0 0 4px 1px rgba(0,0,0,0.2);
+}
